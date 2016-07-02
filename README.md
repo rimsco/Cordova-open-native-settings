@@ -101,3 +101,9 @@ if(typeof cordova.plugins.settings.openSetting != undefined){
         });
 }
 ```
+
+##Using the plugin for IOS
+
+You must configure the URL Schemes in your project. You will find it in Target, Info, URL Scheme. Once there, just type
+
+![ios-url-scheme-setting](/docs/images/ios-prefs-setting.gif)
